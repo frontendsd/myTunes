@@ -4,24 +4,151 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Apple Watch</title>
+    <title>myTunes</title>
     <!-- FONT_FAMILY -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
+   
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
+
     <!-- CSS -->
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <!-- HEAADER -->
-    <header class="site-header"></header>
+    <header class="site-header">
+      <nav class="sitenav">
+        <ul class="sitenav-list">
+          <li class="sitenav-item">
+            <a href="#" id="sitenav-link">myTunes</a>
+          </li>
+          <li class="sitenav-item">
+            <a href="#" id="sitenav-link">Overview</a>
+          </li>
+          <li class="sitenav-item">
+            <a href="#" id="sitenav-link">Music</a>
+          </li>
+          <li class="sitenav-item">
+            <a href="#" id="sitenav-link">Video</a>
+          </li>
+          <li class="sitenav-item">
+            <a href="#" id="sitenav-link">Gift Cards</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="container">
+        <div class="site-header-info">
+          <h1 class="site-header-heading">myTunes</h1>
+          <h2 class="site-header-title">Your music, movies, and TV shows take center stage.
+          </h2>
+          <div class="site-header-text">myTunes is the best way to organize and enjoy the music, movies, and TV shows you already have — and shop for the ones you want. Enjoy all the entertainment myTunes has to offer on your Mac and PC.
+          </div>
+        </div>
+      </div>
+    </header>
     <!-- MAIN -->
-    <main class="main-content"></main>
+    <main class="main-content">
+      <div class="container">
+        <div class="main-action-music">
+          <span class="main-action-title">
+            <i class="fas fa-music"></i>
+            Music
+          </span>
+          <h3 class="main-action-heading">45 million songs. Zero ads.</h3>
+          <div class="main-action-text">Stream over 45 million songs, ad-free. Or download albums and tracks to listen to offline. All the music in your personal myTunes library — no matter where it came from — lives right alongside the Orange Music catalog. Start your free three-month trial with no commitment, and cancel anytime.
+          </div>
+          <a href="#" class="main-button">Start Your Trial Now</a>
+          <div class="main-action-info">Orange Music is available in myTunes, and for iOS and Android devices.
+          </div>
+          <img src="img/mockup1.png" alt="" class="main-action-img">
+        </div>
+      </div>
+    </main>
+
+    <!-- SECTION MOVIES -->
+    <section class="section-movies">
+      <div class="container">
+        <h3 class="section-movies-heading">The movie and TV collection you always wished for. Granted.</h3>
+        <p class="section-movies-text">With over 100,000 movies and TV shows to choose from, there’s always something great to watch on myTunes and if you watch on Orange TV 4K, you’ll be able to enjoy a tremendous selection of your favorite content in 4K HDR. So get ready to enjoy episodes of your favorite TV shows or hit movies you’ve been waiting to see — anytime, anywhere. Just tap to play, or even download if you’re going somewhere you won’t have Wi-Fi.</p>
+        <a href="#" class="section-btn">Read More</a>
+        <img src="img/mockup2.png" alt="" class="section-movies-img">
+      </div>
+    </section>
+
+    <!-- SECTION INTERTAIMENT -->
+
+    <section class="section-intertaiment">
+      <div class="container">
+        <h3 class="section-intertaiment-title">A world of entertainment. Available wherever you are.</h3>
+        <p class="section-intertaiment-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem veniam nobis, nisi ut expedita, doloribus reprehenderit explicabo non velit repellat alias saepe inventore repellendus? Molestias suscipit eos tempora? Quae quaerat cumque in veritatis impedit dolorum sapiente recusandae minima quo aperiam quam, excepturi quasi totam ad quas? Ipsam laudantium soluta delectus!</p>
+      </div>
+    </section>
+
+    <!-- section cards -->
+
+    <section class="section-cards">
+      <div class="container">
+        <div class="section-cards-gift">
+          <img src="img/cards.png" alt="" class="section-cards-img" width="580" height="384">
+          <div class="section-cards-info">
+            <h2 class="section-cards-title">Gift Cards</h2>
+            <p class="section-cards-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque expedita tempore quasi omnis a aut et totam illo fuga accusamus dolorum vero, ut harum consectetur. Minima molestias officiis culpa non sed dicta itaque. Et aliquam illo obcaecati molestias veritatis porro.</p>
+            <p class="section-cards-text hero">Already have an Orange MyTunes Music Gift Card?
+            </p>
+            <span>
+              <a href="#" class="section-cards-link">
+              <i class="fas fa-chevron-right"></i>
+                Redeem</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- FOOTER -->
-    <footer class="site-footer"></footer>
+    <footer class="site-footer">
+      <div class="container footer-container">
+        <ul class="site-footer-list">
+            <li class="site-footer-items">Shop & Learn</li>
+            <li class="site-footer-item"><a href="#" class="site-footer-link">Music</a></li>
+            <li class="site-footer-item"><a href="#" class="site-footer-link">Movies</a></li>
+            <li class="site-footer-item"><a href="#" class="site-footer-link">Shows</a></li>
+            <li class="site-footer-item"><a href="#" class="site-footer-link">Apps</a></li>
+            <li class="site-footer-item"><a href="#" class="site-footer-link">Gift Cards</a></li>
+          </ul>
+          <ul class="site-footer-list">
+            <li class="site-footer-items">Orange Store</li>
+            <li class="site-footer-item"><a href="#" class="site-footer-link">Find a Store</a></li>
+            <li class="site-footer-item"><a href="#" class="site-footer-link">Today at Orange</a></li>
+            <li class="site-footer-item"><a href="#" class="site-footer-link">Orange Camp</a></li>
+            <li class="site-footer-item"><a href="#" class="site-footer-link">Financing</a></li>
+            <li class="site-footer-item"><a href="#" class="site-footer-link">Order Status</a></li>
+          </ul>
+          <ul class="site-footer-list">
+            <li class="site-footer-items">Education & Business</li>
+            <li class="site-footer-item"><a href="#" class="site-footer-link">Orange & Education</a></li>
+            <li class="site-footer-item"><a href="#" class="site-footer-link">Shop For College</a></li>
+            <li class="site-footer-item"><a href="#" class="site-footer-link">Orange & Business</a></li>
+            <li class="site-footer-item"><a href="#" class="site-footer-link">Shop For Business</a></li>
+            <li class="site-footer-item"><a href="#" class="site-footer-link">Jobs</a></li>
+          </ul>
+          <ul class="site-footer-list">
+            <li class="site-footer-items">About Orange</li>
+            <li class="site-footer-item"><a href="#" class="site-footer-link">Newsroom</a></li>
+            <li class="site-footer-item"><a href="#" class="site-footer-link">Orange Leadership</a></li>
+            <li class="site-footer-item"><a href="#" class="site-footer-link">Investors</a></li>
+            <li class="site-footer-item"><a href="#" class="site-footer-link">Events</a></li>
+            <li class="site-footer-item"><a href="#" class="site-footer-link">Contact Orange</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <div class="footer-bottom">
+      <div class="container">
+        Copyright © 2019 Orange myTunes
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   </body>
 </html>
